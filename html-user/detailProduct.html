@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JG3.Electronic</title>
+    <!-- Include Header vs Footer  -->
+    <script type="module" src="../../assets/js/includeHF.js"></script>
+    <!-- Quantity product in MID-DETAIL PRODUCT -->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- import boot css product(all) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- import Css Home -->
+    <link
+      rel="stylesheet"
+      href="../../assets/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <!-- Start Header -->
+      <include-header></include-header>
+      <!-- End Header -->
+
+      <!-- Start content -->
+      <div id="content">
+        <!-- Start detailProduct -->
+        <!-- <div class="wrapper"> -->
+        <div class="container container-detailPage">
+          <nav class="breadcrumb">
+            <a href="#">Trang chủ</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">VGA - Card màn hình</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">MSI</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <b>Card màn hình MSI RTX 2060 VENTUS XS OCV1</b>
+          </nav>
+          <div class="detail-product">
+            <div class="intro-detail">
+              <!-- LEFT DETAIL -->
+              <div class="left-intro-detail">
+                <img src="../../assets/image/detailVGA.jpg" alt="" />
+              </div>
+              <!--MIDDLE DETAIL  -->
+              <div class="mid-intro-detail">
+                <h1 class="title">Card màn hình MSI RTX 2060 VENTUS XS OCV1</h1>
+                <div class="des-price">
+                  <div class="price-item">
+                    <span class="label">Giá thị trường:</span>
+                    <span class="price">16.290.000 đ</span>
+                  </div>
+                  <div class="price-item">
+                    <span class="label">Giá khuyến mãi:</span>
+                    <span class="price highlight-price">6.750.000 đ</span>
+                  </div>
+                </div>
+                <form action="" class="cart" method="get">
+                  <!-- <input type="hidden" name="custom_price" value=""> -->
+                  <div class="quantity">
+                    <input type="button" value="-" onclick="button2()" />
+                    <span id="output-area"></span>
+                    <input type="button" value="+" onclick="button1()" />
+                  </div>
+
+                  <button
+                    class="btn-buy"
+                    type="submit"
+                    name="buy"
+                    value="amount"
+                  >
+                    Mua ngay
+                  </button>
+                  <button
+                    class="btn-add"
+                    type="submit"
+                    name="add_to_cart"
+                    value="amount"
+                  >
+                    Thêm vào giỏ hàng
+                  </button>
+                </form>
+              </div>
+              <!-- RIGHT DETAIL -->
+              <div class="right-intro-detail">
+                <div class="desc-right-intro-detail">
+                  <div class="title">Chính sách bán hàng</div>
+                  <ul class="list-content">
+                    <li>Nhà Bán lẻ Uy tín tại Việt Nam</li>
+                    <li>Sản phẩm Chính hãng 100%</li>
+                    <li>Bảo hành theo Tiêu chuẩn NSX</li>
+                    <li>Chính sách Đặc biệt cho Khối DN</li>
+                    <li>Chính sách Đặc biệt cho Game-Net</li>
+                    <li>Tư vấn miễn phí các giải pháp CNTT</li>
+                  </ul>
+                </div>
+                <div class="desc-right-intro-detail">
+                  <div class="title">Giao nhận - thanh toán</div>
+                  <ul class="list-content">
+                    <li>Giao hàng toàn quốc</li>
+                    <li>Miễn phí bán kính 20km</li>
+                    <li>Thanh toán linh động</li>
+                    <li>Trả Góp lãi suất thấp</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="desc-detail">
+              <div class="intro-product">Giới thiệu sản phẩm</div>
+              <div class="product-description">
+                <h2 class="title-description">
+                  (TITLE) Đánh giá Card màn hình MSI RTX 2060 VENTUS XS OCV1 ,
+                  giá tốt, chất lượng
+                </h2>
+                <p>
+                  <strong>
+                    Giới thiệu card màn hình MSI GeForce RTX 2060 6GB GDDR6
+                    VENTUS XS OCV1 (6GB GDDR6, 192-bit, DVI+HDMI+DP, 1×8-pin)
+                  </strong>
+                </p>
+                <p>
+                  MSI GeForce RTX 2060 6GB GDDR6 VENTUS XS OCV1 là mẫu card đồ
+                  họa tầm trung mới mất của MSI, sử dụng bộ xử lý đồ họa RTX
+                  2060 với khả năng xử lý tương đương với GTX 1070Ti và hỗ trợ
+                  tính năng RTX, DLSS mới nhất giúp đem lại trải nghiệm chơi
+                  game tốt nhất, kèm theo thiết kế tản nhiệt độc quyền tới từ
+                  MSI, đem lại sự hoạt động ổn định và êm ái.
+                  <br />
+                  Lưu ý: phiên bản RTX 2060 này đã được ép xung sẵn để có được
+                  hiệu năng chơi game tốt hơn.
+                </p>
+
+                <h3>Thiết kế (TITLE)</h3>
+                <p>
+                  MSI GeForce RTX 2060 6GB GDDR6 VENTUS XS OCV1 đem lại thiết kế
+                  hoàn toàn mới với tông màu đen và trắng rất dễ phối màu với
+                  nhiều cách kết hợp khác nhau. Kèm theo là tấm “back plate” kim
+                  loại lớn vừa tăng tính thẩm mĩ vừa hạn chế việc cong bo mạch
+                  khi mà khối lượng tản nhiệt ngày càng lớn.
+                </p>
+
+                <h3>Tản nhiệt (TITLE)</h3>
+                <p>
+                  Sử dụng thiết kế quạt TORX FAN 2.0 độc quyền của MSI với trục
+                  bi kép cộng thêm phần cánh quạt được chia làm 2 loại, 1 loại
+                  được thiết kế để giúp tăng tốc không khí đi qua quạt, 1 loại
+                  được thiết kế để ép không khí xuống lớp tản nhiệt phía dưới,
+                  đem lại cho MSI GeForce RTX 2060 6GB GDDR6 VENTUS XS OCV1 hiệu
+                  năng làm mát và độ ồn tối ưu nhất.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Content -->
+
+      <!-- Start Footer -->
+      <include-footer></include-footer>
+    </div>
+
+    <!-- script quantity -->
+    <script>
+      var x = 1;
+      document.getElementById("output-area").innerHTML = x;
+      function button1() {
+        document.getElementById("output-area").innerHTML = ++x;
+      }
+      function button2() {
+        if (x <= 0) {
+          alert(
+            " minimum value 0 // By Khaydarov Marufjon marvell_it academy uzb "
+          );
+          return false;
+        }
+        document.getElementById("output-area").innerHTML = --x;
+      }
+    </script>
+  </body>
+</html>
