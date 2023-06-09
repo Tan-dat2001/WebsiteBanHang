@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Data Table - Vali Admin</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- include admin -->
+  <script type="module" src="../../assets/js/includeAdm.js"></script>
+  <!-- Main CSS-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Font-icon css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </style>
+</head>
+
+<body class="app sidebar-mini">
+  <!-- Navbar-->
+  <include-admin></include-admin>
+  <!--  -->
+
+  <main class="app-content">
+    <div class="app-title">
+      <div>
+        <h1><i class="fa fa-th-list"></i> LINH KIỆN</h1>
+      </div>
+      <ul class="app-breadcrumb breadcrumb">
+        <li class="breadcrumb-item"><i class="fa fa-plus-square-o fa-lg"></i></li>
+        <li class="breadcrumb-item active"><a href="formThemLinhKien.html">Thêm Linh Kiện</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tile">
+          <div class="tile-body">
+            <div class="table-responsive">
+              <table class="table table-hover table-bordered" id="sampleTable">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>ID</th>
+                    <th>Tên Linh Kiện</th>
+                    <th>Tên Hãng Sản Xuất</th>
+                    <th>Số Lượng</th>
+                    <th>Mô Tả</th>
+                    <th>Bảo Hành</th>
+                    <th>Loại Linh Kiện</th>
+                    <th>Tác Vụ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Chuột Không Dây</td>
+                    <td>Dell</td>
+                    <td>07</td>
+                    <td>Điện An, Điện Bàn, Quảng Nam</td>
+                    <td>2 tháng</td>
+                    <td>Chuột</td>
+                    <td> <a href="#">XÓA</a>||<a href="formSuaLinhKien.html">SỬA</a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>Chuột Không Dây</td>
+                    <td>Dell</td>
+                    <td>07</td>
+                    <td>Điện An, Điện Bàn, Quảng Nam</td>
+                    <td>2 tháng</td>
+                    <td>Chuột</td>
+                    <td> <a href="#">XÓA</a>||<a href="#">SỬA</a> </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+  <!-- Essential javascripts for application to work-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- The javascript plugin to display page loading on top-->
+  <script src="js/plugins/pace.min.js"></script>
+  <!-- Page specific javascripts-->
+  <!-- Data table plugin-->
+  <script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript">$('#sampleTable').DataTable();</script>
+  <!-- Google analytics script-->
+  <script type="text/javascript">
+    if (document.location.hostname == 'pratikborsadiya.in') {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-72504830-1', 'auto');
+      ga('send', 'pageview');
+    }
+  </script>
+</body>
+
+</html>
