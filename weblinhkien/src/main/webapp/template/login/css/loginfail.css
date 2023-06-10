@@ -1,0 +1,13 @@
+.loginfail{
+	text-align:center;
+	color: red;
+	margin-top: 5px;
+	margin-bottom: -8px;
+}
+
+.loginfail__admin{
+	text-align:center;
+	color: red;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}

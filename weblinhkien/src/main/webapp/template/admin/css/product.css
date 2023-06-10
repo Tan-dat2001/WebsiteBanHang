@@ -1,0 +1,11 @@
+  .add-brand-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      
+      .add-brand-list input{
+        width: 100%;
+        margin-bottom: 12px;
+        
+      }
